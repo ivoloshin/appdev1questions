@@ -1,2 +1,3 @@
-# appdev1questions
-App Developer 1 Questions
+# App Developer Questions
+
+For each of the following questions create a new session at ![https://repl.it/](repl.it)
