@@ -9,7 +9,7 @@ Numbers in Mandarin follow 3 simple rules.
 - For numbers 11-19, the number is pronounced as "ten digit", so for example, 16 would be pronounced (using Mandarin) as "ten six".
 - For numbers between 20 and 99, the number is pronounced as "digit ten digit", so for example, 37 would be pronounced (using Mandarin) as "three ten seven". If the digit is a zero, it is not included.
 
-Here is a mapping for the numbers between 0 and 10.
+### Here is a mapping for the numbers between 0 and 10.
 ```
 '0': 'ling'
 '1': 'yi'
@@ -25,8 +25,8 @@ Here is a mapping for the numbers between 0 and 10.
 ```
 
 We want to write a procedure that converts an Arabic number (between 0 and 99), written as a string, into the equivalent Mandarin.
-________________________________________
-Example Usage:
+
+### Example Usage
 - `convert_to_mandarin('36')` will return `san shi liu`
 - `convert_to_mandarin('20')` will return `er shi`
 - `convert_to_mandarin('16')` will return `shi liu`
