@@ -11,17 +11,17 @@ Numbers in Mandarin follow 3 simple rules.
 
 Here is a mapping for the numbers between 0 and 10.
 ```
-'0':'ling'
-'1':'yi'
-'2':'er'
-'3':'san'
+'0': 'ling'
+'1': 'yi'
+'2': 'er'
+'3': 'san'
 '4': 'si'
-'5':'wu'
-'6':'liu'
-'7':'qi'
-'8':'ba'
-'9':'jiu'
-'10': 'shi'
+'5': 'wu'
+'6': 'liu'
+'7': 'qi'
+'8': 'ba'
+'9': 'jiu'
+'10':'shi'
 ```
 
 We want to write a procedure that converts an American number (between 0 and 99), written as a string, into the equivalent Mandarin.
