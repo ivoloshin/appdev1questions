@@ -26,7 +26,7 @@ Numbers in Mandarin follow 3 simple rules.
 
 We want to write a procedure that converts an Arabic number (between 0 and 99), written as a string, into the equivalent Mandarin.
 
-### Example Usage
+**Example Usage**
 - `convert_to_mandarin('36')` will return `san shi liu`
 - `convert_to_mandarin('20')` will return `er shi`
 - `convert_to_mandarin('16')` will return `shi liu`
@@ -52,28 +52,28 @@ You are given two numbers `n` and `k`. You have to calculate the super digit of 
 
 `P` is created when number `n` is concatenated `k` times. That is, if `n=123` and `k=3`, then `P=123123123`.
 
-### Input Format
+**Input Format**
 
 The first line contains two space separated integers, `n` and `k`.
 
-### Constraints
+**Constraints**
 
 - `1 ≤ n < 10^10000`
 - `1 ≤ k ≤ 10^5`
 
-### Output Format
+**Output Format**
 
 Output the super digit of `P`, where `P` is created as described above.
 
-### Sample Input
+**Sample Input**
 
 `148 3`
 
-### Sample Output
+**Sample Output**
 
 `3`
 
-### Explanation
+**Explanation**
 
 Here `n=148` and `k=3`, so `P=148148148`.
 
@@ -97,7 +97,7 @@ You are given the following definitions:
 
 Implement a function that takes a list of integers `L` containing at least `2` elements. The function finds the longest run of numbers in `L`, where the longest run can either be monotonically increasing or monotonically decreasing. In case of a tie for the longest run, choose the longest run that occurs first. The function does not modify the list. Function returns the sum of the longest run.
 
-### Example
+**Example**
 
 If `L = [10, 4, 3, 8, 3, 4, 5, 7, 7, 2]` then the longest run of monotonically increasing numbers in `L` is `[3, 4, 5, 7, 7]` and the longest run of monotonically decreasing numbers in `L` is `[10, 4, 3]`. Your function should return the value `26` because the longest run of monotonically increasing integers is longer than the longest run of monotonically decreasing numbers.
 
