@@ -1,6 +1,6 @@
 # App Developer 1 Questions
 
-Steps to complete the problems below
+**Steps to complete the problems below**
 
 1. Create an account at [repl.it](https://repl.it/).
 2. Select any language you are comfortable with.  We have no preference what you choose.
@@ -9,7 +9,7 @@ Steps to complete the problems below
 5. Your sessions are saved to your account, so when you have completed all three, open each session and click the "share" button.
 6. Copy the link in the "Share Link" textbox and send to LSI's HR representative via email.  There should be a total of three links you send.
 
-A couple of things to note
+**A couple of things to note**
 
 1. If you do not complete all three problems, please send those you do complete
 2. If you have some partial code for any of the problems but get stuck on something, please send what you have anyway
