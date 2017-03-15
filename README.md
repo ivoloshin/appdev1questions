@@ -48,45 +48,24 @@ super_digit(9875) = super_digit(9+8+7+5)
                   = super_digit(2)
                   = 2.
 ```
+
 You are given two numbers `n` and `k`. Implement a function that calculates the super digit of `P`.
 
 `P` is created when number `n` is concatenated `k` times. That is, if `n=123` and `k=3`, then `P=123123123`.
 
 **Input Format**
 
-The function will take one string parameter containing two space separated integers, `n` and `k`.
-
-**Input Constraints** (The values your function will be checked with will be limited to these values)
-
-- `1 ≤ n < 10^10000`
-- `1 ≤ k ≤ 10^5`
+The function will take one **string** parameter containing two space separated integers, `n` and `k`. `n` should support numbers up to 32 digits. `k` should support numbers up to 
 
 **Output Format**
 
 Output the super digit of `P`, where `P` is created as described above.
 
-**Sample Input**
+**Example Usage**
 
-`148 3`
-
-**Sample Output**
-
-`3`
-
-**Explanation**
-
-Here `n=148` and `k=3`, so `P=148148148`.
-
-```
-super_digit(P) = super_digit(148148148) 
-               = super_digit(1+4+8+1+4+8+1+4+8)
-               = super_digit(39)
-               = super_digit(3+9)
-               = super_digit(12)
-               = super_digit(1+2)
-               = super_digit(3)
-               = 3.
-```
+`super_digit_sum('148 3')` will return `3`
+`super_digit_sum('148 5')` will return `2`
+`super_digit_sum('48652 2')` will return `5`
 
 ## Problem 3
 
@@ -97,7 +76,7 @@ You are given the following definitions:
 
 Implement a function that takes a list of integers `L` containing at least `2` elements. The function finds the longest run of numbers in `L`, where the longest run can either be monotonically increasing or monotonically decreasing. In case of a tie for the longest run, choose the longest run that occurs first. The function does not modify the list. Function returns the sum of the longest run.
 
-**Example**
+**Example Usage**
 
 If `L = [10, 4, 3, 8, 3, 4, 5, 7, 7, 2]` then the longest run of monotonically increasing numbers in `L` is `[3, 4, 5, 7, 7]` and the longest run of monotonically decreasing numbers in `L` is `[10, 4, 3]`. Your function should return the value `26` because the longest run of monotonically increasing integers is longer than the longest run of monotonically decreasing numbers.
 
