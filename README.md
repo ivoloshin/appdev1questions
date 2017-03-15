@@ -63,9 +63,9 @@ Output the super digit of `P`, where `P` is created as described above.
 
 **Example Usage**
 
-`super_digit_sum('148 3')` will return `3`
-`super_digit_sum('148 5')` will return `2`
-`super_digit_sum('48652 2')` will return `5`
+- `super_digit_sum('148 3')` will return `3`
+- `super_digit_sum('148 5')` will return `2`
+- `super_digit_sum('48652 2')` will return `5`
 
 ## Problem 3
 
