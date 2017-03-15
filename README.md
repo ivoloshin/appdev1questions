@@ -73,7 +73,7 @@ Output the super digit of `P`, where `P` is created as described above.
 
 - `super_digit_sum('148 3')` will return `3`
 
-Here n=148 and k=3, so P=148148148.
+Here `n=148` and `k=3`, so `P=148148148`.
 ```
 super_digit(P) = super_digit(148148148) 
                = super_digit(1+4+8+1+4+8+1+4+8)
@@ -86,7 +86,7 @@ super_digit(P) = super_digit(148148148)
 ```
 - `super_digit_sum('148 5')` will return `2`
 
-Here n=148 and k=5, so P=148148148148148.
+Here `n=148` and `k=5`, so `P=148148148148148`.
 ```
 super_digit(P) = super_digit(148148148148148) 
                = super_digit(1+4+8+1+4+8+1+4+8+1+4+8+1+4+8)
@@ -99,7 +99,7 @@ super_digit(P) = super_digit(148148148148148)
 ```
 - `super_digit_sum('48652 2')` will return `5`
 
-Here n=48652 and k=2, so P=4865248652.
+Here `n=48652` and `k=2`, so `P=4865248652`.
 ```
 super_digit(P) = super_digit(4865248652) 
                = super_digit(4+8+6+5+2+4+8+6+5+2)
