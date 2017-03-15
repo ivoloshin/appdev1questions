@@ -28,8 +28,16 @@ Implement a function that converts an Arabic number (between 0 and 99), written 
 
 **Example Usage**
 - `convert_to_mandarin('36')` will return `'san shi liu'`
+
+Here `san shi liu` stands for `thirty ten six`
+
 - `convert_to_mandarin('20')` will return `'er shi'`
+
+Here `er shi` stands for `two ten`
+
 - `convert_to_mandarin('16')` will return `'shi liu'`
+
+Here `shi liu` stands for `ten six`
 
 ## Problem 2
 
