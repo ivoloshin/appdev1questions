@@ -27,9 +27,9 @@ Numbers in Mandarin follow 3 simple rules.
 Implement a function that converts an Arabic number (between 0 and 99), written as a string, into the equivalent Mandarin.
 
 **Example Usage**
-- `convert_to_mandarin('36')` will return `san shi liu`
-- `convert_to_mandarin('20')` will return `er shi`
-- `convert_to_mandarin('16')` will return `shi liu`
+- `convert_to_mandarin('36')` will return `'san shi liu'`
+- `convert_to_mandarin('20')` will return `'er shi'`
+- `convert_to_mandarin('16')` will return `'shi liu'`
 
 ## Problem 2
 
