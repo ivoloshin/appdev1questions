@@ -128,6 +128,6 @@ If `L = [10, 4, 3, 8, 3, 4, 5, 7, 7, 2]` then the longest run of monotonically i
 
 If `L = [5, 4, 10]` then the longest run of monotonically increasing numbers in `L` is `[4, 10]` and the longest run of monotonically decreasing numbers in `L` is `[5, 4]`. Your function should return the value `9` because the longest run of monotonically decreasing integers occurs before the longest run of monotonically increasing numbers.
 
-- `longest_run_sum([2, 2, 3, 2, 1])` returns `6`
+- `longest_run_sum([2, 2, 3, 2, 1])` returns `7`
 
 If `L = [2, 2, 3, 2, 1]` then the longest run of monotonically increasing numbers in `L` is `[2, 2, 3]` and the longest run of monotonically decreasing numbers in `L` is `[3, 2, 1]`. Your function should return the value `7` because the longest run of monotonically increasing integers is the same length as the longest run of monotonically decreasing integers, but occurs first.
