@@ -24,7 +24,7 @@ Numbers in Mandarin follow 3 simple rules.
 '10':'shi'
 ```
 
-We want to write a procedure that converts an Arabic number (between 0 and 99), written as a string, into the equivalent Mandarin.
+Implement a function that converts an Arabic number (between 0 and 99), written as a string, into the equivalent Mandarin.
 
 **Example Usage**
 - `convert_to_mandarin('36')` will return `san shi liu`
@@ -48,13 +48,13 @@ super_digit(9875) = super_digit(9+8+7+5)
                   = super_digit(2)
                   = 2.
 ```
-You are given two numbers `n` and `k`. You have to create a procedure that calculates the super digit of `P`.
+You are given two numbers `n` and `k`. Implement a function that calculates the super digit of `P`.
 
 `P` is created when number `n` is concatenated `k` times. That is, if `n=123` and `k=3`, then `P=123123123`.
 
 **Input Format**
 
-The procedure will take one string parameter containing two space separated integers, `n` and `k`.
+The function will take one string parameter containing two space separated integers, `n` and `k`.
 
 **Input Constraints** (The values your function will be checked with will be limited to these values)
 
