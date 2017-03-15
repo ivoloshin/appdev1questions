@@ -1,6 +1,6 @@
 # App Developer 1 Questions
 
-To answer these questions create an account at [repl.it](https://repl.it/). Select a language you are most comfortable with and create a session for each of the problems. Once your solutions are done, select share and send links to each of the solution to the recruiter.
+To answer these questions create an account at [repl.it](https://repl.it/). Select the language you are most comfortable with and create a session for each of the problems. Once your solutions are done, select share and send links to each of the solutions to the recruiter.
 
 ## Problem 1
 
@@ -48,15 +48,15 @@ super_digit(9875) = super_digit(9+8+7+5)
                   = super_digit(2)
                   = 2.
 ```
-You are given two numbers `n` and `k`. You have to calculate the super digit of `P`.
+You are given two numbers `n` and `k`. You have to create a procedure that calculates the super digit of `P`.
 
 `P` is created when number `n` is concatenated `k` times. That is, if `n=123` and `k=3`, then `P=123123123`.
 
 **Input Format**
 
-The first line contains two space separated integers, `n` and `k`.
+The procedure will take one string parameter containing two space separated integers, `n` and `k`.
 
-**Constraints**
+**Input Constraints** (The values your function will be checked with will be limited to these values)
 
 - `1 ≤ n < 10^10000`
 - `1 ≤ k ≤ 10^5`
