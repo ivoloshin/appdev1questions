@@ -55,7 +55,7 @@ You are given two numbers `n` and `k`. Implement a function that calculates the 
 
 **Input Format**
 
-The function will take one **string** parameter containing two space separated integers, `n` and `k`. `n` should support numbers up to 32 digits. `k` should support numbers up to 
+The function will take one **string** parameter containing two space separated integers, `n` and `k`. `n` should support numbers up to 32 digits. `k` should support numbers up to 5 digits.
 
 **Output Format**
 
@@ -78,10 +78,14 @@ Implement a function that takes a list of integers `L` containing at least `2` e
 
 **Example Usage**
 
-- `get_run_sum([10, 4, 3, 8, 3, 4, 5, 7, 7, 2])` returns `26`
+- `longest_run_sum([10, 4, 3, 8, 3, 4, 5, 7, 7, 2])` returns `26`
 
 If `L = [10, 4, 3, 8, 3, 4, 5, 7, 7, 2]` then the longest run of monotonically increasing numbers in `L` is `[3, 4, 5, 7, 7]` and the longest run of monotonically decreasing numbers in `L` is `[10, 4, 3]`. Your function should return the value `26` because the longest run of monotonically increasing integers is longer than the longest run of monotonically decreasing numbers.
 
-- `get_run_sum([5, 4, 10])` returns `9`
+- `longest_run_sum([5, 4, 10])` returns `9`
 
 If `L = [5, 4, 10]` then the longest run of monotonically increasing numbers in `L` is `[4, 10]` and the longest run of monotonically decreasing numbers in `L` is `[5, 4]`. Your function should return the value `9` because the longest run of monotonically decreasing integers occurs before the longest run of monotonically increasing numbers.
+
+- `longest_run_sum([2, 2, 3, 2, 1])` returns `6`
+
+If `L = [2, 2, 3, 2, 1]` then the longest run of monotonically increasing numbers in `L` is `[2, 2, 3]` and the longest run of monotonically decreasing numbers in `L` is `[3, 2, 1]`. Your function should return the value `7` because the longest run of monotonically increasing integers is the same length as the longest run of monotonically decreasing integers, but occurs first.
